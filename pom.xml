@@ -11,7 +11,7 @@
     <name>Maven</name>
 
     <modules>
-
+        <module>cloud-privider-payment8001</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -97,7 +97,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <fork>true</fork>
+                    <!-- <fork>true</fork> -->
                     <addResources>true</addResources>
                 </configuration>
             </plugin>
