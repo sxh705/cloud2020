@@ -15,7 +15,8 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderController {
     // RestTemplate rpc调用
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    // public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://cLoud-pAYment-service"; //不分大小写
     @Resource
     private RestTemplate restTemplate;
 

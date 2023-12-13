@@ -15,7 +15,8 @@
         <module>cloud-consumer-order80</module>
         <module>cloud-api-commons</module>
         <module>cloud-eureka-server7001-7002</module>
-        <module>cloud-eureka-server7002</module>
+        <module>cloud-privider-zk-payment8004</module>
+        <module>cloud-consumer-zk-order80</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

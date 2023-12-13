@@ -4,8 +4,7 @@ eureka:
   instance:
     hostname: local1
   client:
-    register-with-eureka: false
-    fetch-registry: false
     service-url:
       defaultZone: http://local2:7002/eureka/
+#      defaultZone: http://local1:7001/eureka/
 # eurka集群:互相注册 相互触发

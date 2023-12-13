@@ -15,7 +15,4 @@ public class CommonResult {
     private String message;
     private Object data;
 
-
-
-
 }
