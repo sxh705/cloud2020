@@ -59,4 +59,9 @@ public class PaymentController {
         }
         return Arrays.asList(discoveryClient, instances);
     }
+
+    @GetMapping("lb")
+    public String b() {
+        return serverPort;
+    }
 }
