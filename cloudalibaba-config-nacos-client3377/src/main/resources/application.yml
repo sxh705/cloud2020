@@ -1,0 +1,8 @@
+# 低优先级
+spring:
+  profiles:
+    # active: test
+    active: dev
+#    active: info
+    # 具体拉取何种配置文件 文件名: (spring-application-name)-(spring.profiles.active).(file-extension) nacos-config-client-dev.yml
+

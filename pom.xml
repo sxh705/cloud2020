@@ -19,6 +19,10 @@
         <module>cloud-consumer-zookeeper-order80</module>
         <module>cloud-provider-consul-payment8006</module>
         <module>cloud-consumer-consul-order80</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloud-server-eureka7001</module>
+        <module>cloudalibaba-provider-nacos-payment9001</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
